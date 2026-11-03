@@ -1,0 +1,1621 @@
+{
+  "train_samples": 158088,
+  "test_samples": 5800,
+  "intercept": 0.8831,
+  "roc_auc": 0.9957,
+  "default_threshold": 0.5,
+  "accuracy": 95.3,
+  "phishing_recall": 97.9,
+  "phishing_precision": 87.6,
+  "confusion_matrix": {
+    "tn": 3854,
+    "fp": 236,
+    "fn": 36,
+    "tp": 1674
+  },
+  "threshold_analysis": [
+    {
+      "threshold": 0.1,
+      "accuracy": 72.93,
+      "precision": 52.14,
+      "recall": 99.94,
+      "f1_score": 68.52,
+      "tp": 1709,
+      "fp": 1569,
+      "tn": 2521,
+      "fn": 1
+    },
+    {
+      "threshold": 0.2,
+      "accuracy": 83.93,
+      "precision": 64.75,
+      "recall": 99.88,
+      "f1_score": 78.56,
+      "tp": 1708,
+      "fp": 930,
+      "tn": 3160,
+      "fn": 2
+    },
+    {
+      "threshold": 0.3,
+      "accuracy": 89.62,
+      "precision": 74.07,
+      "recall": 99.71,
+      "f1_score": 85.0,
+      "tp": 1705,
+      "fp": 597,
+      "tn": 3493,
+      "fn": 5
+    },
+    {
+      "threshold": 0.4,
+      "accuracy": 92.81,
+      "precision": 80.83,
+      "recall": 99.12,
+      "f1_score": 89.05,
+      "tp": 1695,
+      "fp": 402,
+      "tn": 3688,
+      "fn": 15
+    },
+    {
+      "threshold": 0.5,
+      "accuracy": 95.31,
+      "precision": 87.64,
+      "recall": 97.89,
+      "f1_score": 92.49,
+      "tp": 1674,
+      "fp": 236,
+      "tn": 3854,
+      "fn": 36
+    },
+    {
+      "threshold": 0.6,
+      "accuracy": 96.66,
+      "precision": 92.25,
+      "recall": 96.78,
+      "f1_score": 94.46,
+      "tp": 1655,
+      "fp": 139,
+      "tn": 3951,
+      "fn": 55
+    },
+    {
+      "threshold": 0.7,
+      "accuracy": 97.21,
+      "precision": 96.13,
+      "recall": 94.33,
+      "f1_score": 95.22,
+      "tp": 1613,
+      "fp": 65,
+      "tn": 4025,
+      "fn": 97
+    },
+    {
+      "threshold": 0.8,
+      "accuracy": 96.69,
+      "precision": 98.65,
+      "recall": 90.0,
+      "f1_score": 94.13,
+      "tp": 1539,
+      "fp": 21,
+      "tn": 4069,
+      "fn": 171
+    },
+    {
+      "threshold": 0.9,
+      "accuracy": 93.0,
+      "precision": 99.85,
+      "recall": 76.37,
+      "f1_score": 86.55,
+      "tp": 1306,
+      "fp": 2,
+      "tn": 4088,
+      "fn": 404
+    }
+  ],
+  "top_phishing_features": [
+    {
+      "rank": 1,
+      "term": "your",
+      "weight": 8.14
+    },
+    {
+      "rank": 2,
+      "term": "love",
+      "weight": 6.5565
+    },
+    {
+      "rank": 3,
+      "term": "2004",
+      "weight": 6.4198
+    },
+    {
+      "rank": 4,
+      "term": "life",
+      "weight": 6.126
+    },
+    {
+      "rank": 5,
+      "term": "http",
+      "weight": 6.0945
+    },
+    {
+      "rank": 6,
+      "term": "com",
+      "weight": 6.0742
+    },
+    {
+      "rank": 7,
+      "term": "account",
+      "weight": 5.7501
+    },
+    {
+      "rank": 8,
+      "term": "click",
+      "weight": 5.4399
+    },
+    {
+      "rank": 9,
+      "term": "money",
+      "weight": 5.3196
+    },
+    {
+      "rank": 10,
+      "term": "josemonkeyorg",
+      "weight": 5.1284
+    },
+    {
+      "rank": 11,
+      "term": "0300",
+      "weight": 5.0899
+    },
+    {
+      "rank": 12,
+      "term": "2005",
+      "weight": 5.0685
+    },
+    {
+      "rank": 13,
+      "term": "remove",
+      "weight": 4.9487
+    },
+    {
+      "rank": 14,
+      "term": "you",
+      "weight": 4.9108
+    },
+    {
+      "rank": 15,
+      "term": "men",
+      "weight": 4.8563
+    },
+    {
+      "rank": 16,
+      "term": "watches",
+      "weight": 4.4619
+    },
+    {
+      "rank": 17,
+      "term": "site",
+      "weight": 4.3018
+    },
+    {
+      "rank": 18,
+      "term": "bank",
+      "weight": 4.2314
+    },
+    {
+      "rank": 19,
+      "term": "2016",
+      "weight": 4.1106
+    },
+    {
+      "rank": 20,
+      "term": "mobile",
+      "weight": 4.1041
+    },
+    {
+      "rank": 21,
+      "term": "replica",
+      "weight": 4.0159
+    },
+    {
+      "rank": 22,
+      "term": "viagra",
+      "weight": 4.0113
+    },
+    {
+      "rank": 23,
+      "term": "quality",
+      "weight": 4.0061
+    },
+    {
+      "rank": 24,
+      "term": "investment",
+      "weight": 4.0
+    },
+    {
+      "rank": 25,
+      "term": "meds",
+      "weight": 3.9443
+    },
+    {
+      "rank": 26,
+      "term": "our",
+      "weight": 3.9271
+    },
+    {
+      "rank": 27,
+      "term": "2017",
+      "weight": 3.8282
+    },
+    {
+      "rank": 28,
+      "term": "sex",
+      "weight": 3.8143
+    },
+    {
+      "rank": 29,
+      "term": "man",
+      "weight": 3.8139
+    },
+    {
+      "rank": 30,
+      "term": "here",
+      "weight": 3.8055
+    },
+    {
+      "rank": 31,
+      "term": "watch",
+      "weight": 3.7318
+    },
+    {
+      "rank": 32,
+      "term": "pills",
+      "weight": 3.6228
+    },
+    {
+      "rank": 33,
+      "term": "low",
+      "weight": 3.6013
+    },
+    {
+      "rank": 34,
+      "term": "health",
+      "weight": 3.5737
+    },
+    {
+      "rank": 35,
+      "term": "software",
+      "weight": 3.5216
+    },
+    {
+      "rank": 36,
+      "term": "her",
+      "weight": 3.4337
+    },
+    {
+      "rank": 37,
+      "term": "guaranteed",
+      "weight": 3.4214
+    },
+    {
+      "rank": 38,
+      "term": "payment",
+      "weight": 3.407
+    },
+    {
+      "rank": 39,
+      "term": "2019",
+      "weight": 3.388
+    },
+    {
+      "rank": 40,
+      "term": "2018",
+      "weight": 3.3702
+    },
+    {
+      "rank": 41,
+      "term": "girls",
+      "weight": 3.3683
+    },
+    {
+      "rank": 42,
+      "term": "medications",
+      "weight": 3.2981
+    },
+    {
+      "rank": 43,
+      "term": "inches",
+      "weight": 3.2627
+    },
+    {
+      "rank": 44,
+      "term": "monkey org",
+      "weight": 3.2467
+    },
+    {
+      "rank": 45,
+      "term": "info",
+      "weight": 3.2369
+    },
+    {
+      "rank": 46,
+      "term": "reply",
+      "weight": 3.1851
+    },
+    {
+      "rank": 47,
+      "term": "jose",
+      "weight": 3.1382
+    },
+    {
+      "rank": 48,
+      "term": "huge",
+      "weight": 3.1304
+    },
+    {
+      "rank": 49,
+      "term": "2022",
+      "weight": 3.0983
+    },
+    {
+      "rank": 50,
+      "term": "kindly",
+      "weight": 3.074
+    },
+    {
+      "rank": 51,
+      "term": "online",
+      "weight": 3.0551
+    },
+    {
+      "rank": 52,
+      "term": "utf",
+      "weight": 3.0383
+    },
+    {
+      "rank": 53,
+      "term": "best",
+      "weight": 3.0129
+    },
+    {
+      "rank": 54,
+      "term": "worldwide",
+      "weight": 2.9732
+    },
+    {
+      "rank": 55,
+      "term": "dollars",
+      "weight": 2.9273
+    },
+    {
+      "rank": 56,
+      "term": "immediately",
+      "weight": 2.9156
+    },
+    {
+      "rank": 57,
+      "term": "country",
+      "weight": 2.9035
+    },
+    {
+      "rank": 58,
+      "term": "product",
+      "weight": 2.901
+    },
+    {
+      "rank": 59,
+      "term": "offer",
+      "weight": 2.8958
+    },
+    {
+      "rank": 60,
+      "term": "secure",
+      "weight": 2.8838
+    },
+    {
+      "rank": 61,
+      "term": "professional",
+      "weight": 2.8353
+    },
+    {
+      "rank": 62,
+      "term": "aug 2008",
+      "weight": 2.8245
+    },
+    {
+      "rank": 63,
+      "term": "company",
+      "weight": 2.8147
+    },
+    {
+      "rank": 64,
+      "term": "cheap",
+      "weight": 2.8068
+    },
+    {
+      "rank": 65,
+      "term": "dear",
+      "weight": 2.8046
+    },
+    {
+      "rank": 66,
+      "term": "no",
+      "weight": 2.8043
+    },
+    {
+      "rank": 67,
+      "term": "biz",
+      "weight": 2.7945
+    },
+    {
+      "rank": 68,
+      "term": "monkey",
+      "weight": 2.7836
+    },
+    {
+      "rank": 69,
+      "term": "paliourg",
+      "weight": 2.7824
+    },
+    {
+      "rank": 70,
+      "term": "rolex",
+      "weight": 2.7765
+    },
+    {
+      "rank": 71,
+      "term": "cialis",
+      "weight": 2.7271
+    },
+    {
+      "rank": 72,
+      "term": "mortgage",
+      "weight": 2.7204
+    },
+    {
+      "rank": 73,
+      "term": "cy",
+      "weight": 2.7065
+    },
+    {
+      "rank": 74,
+      "term": "fast",
+      "weight": 2.6929
+    },
+    {
+      "rank": 75,
+      "term": "million",
+      "weight": 2.686
+    },
+    {
+      "rank": 76,
+      "term": "prescription",
+      "weight": 2.6841
+    },
+    {
+      "rank": 77,
+      "term": "gr",
+      "weight": 2.6772
+    },
+    {
+      "rank": 78,
+      "term": "transfer",
+      "weight": 2.6662
+    },
+    {
+      "rank": 79,
+      "term": "vi",
+      "weight": 2.6613
+    },
+    {
+      "rank": 80,
+      "term": "hello",
+      "weight": 2.6509
+    },
+    {
+      "rank": 81,
+      "term": "enhancement",
+      "weight": 2.636
+    },
+    {
+      "rank": 82,
+      "term": "lose",
+      "weight": 2.6283
+    },
+    {
+      "rank": 83,
+      "term": "may 2002",
+      "weight": 2.6247
+    },
+    {
+      "rank": 84,
+      "term": "2003",
+      "weight": 2.6215
+    },
+    {
+      "rank": 85,
+      "term": "become",
+      "weight": 2.6196
+    },
+    {
+      "rank": 86,
+      "term": "funds",
+      "weight": 2.6148
+    },
+    {
+      "rank": 87,
+      "term": "medical",
+      "weight": 2.6056
+    },
+    {
+      "rank": 88,
+      "term": "jose monkey",
+      "weight": 2.5851
+    },
+    {
+      "rank": 89,
+      "term": "male",
+      "weight": 2.5836
+    },
+    {
+      "rank": 90,
+      "term": "monkeyorg",
+      "weight": 2.574
+    },
+    {
+      "rank": 91,
+      "term": "proven",
+      "weight": 2.5704
+    },
+    {
+      "rank": 92,
+      "term": "ge",
+      "weight": 2.5609
+    },
+    {
+      "rank": 93,
+      "term": "increase",
+      "weight": 2.5566
+    },
+    {
+      "rank": 94,
+      "term": "pro",
+      "weight": 2.5417
+    },
+    {
+      "rank": 95,
+      "term": "gain",
+      "weight": 2.5339
+    },
+    {
+      "rank": 96,
+      "term": "medication",
+      "weight": 2.5206
+    },
+    {
+      "rank": 97,
+      "term": "goodbye",
+      "weight": 2.517
+    },
+    {
+      "rank": 98,
+      "term": "bed",
+      "weight": 2.5073
+    },
+    {
+      "rank": 99,
+      "term": "custom alert",
+      "weight": 2.4842
+    },
+    {
+      "rank": 100,
+      "term": "free",
+      "weight": 2.479
+    },
+    {
+      "rank": 101,
+      "term": "weight",
+      "weight": 2.4635
+    },
+    {
+      "rank": 102,
+      "term": "sir",
+      "weight": 2.4503
+    },
+    {
+      "rank": 103,
+      "term": "ra",
+      "weight": 2.448
+    },
+    {
+      "rank": 104,
+      "term": "your account",
+      "weight": 2.4476
+    },
+    {
+      "rank": 105,
+      "term": "hot",
+      "weight": 2.4344
+    },
+    {
+      "rank": 106,
+      "term": "marketing",
+      "weight": 2.4194
+    },
+    {
+      "rank": 107,
+      "term": "super",
+      "weight": 2.3985
+    },
+    {
+      "rank": 108,
+      "term": "removed",
+      "weight": 2.3896
+    },
+    {
+      "rank": 109,
+      "term": "adult",
+      "weight": 2.387
+    },
+    {
+      "rank": 110,
+      "term": "pleasure",
+      "weight": 2.3766
+    },
+    {
+      "rank": 111,
+      "term": "urgent",
+      "weight": 2.3755
+    },
+    {
+      "rank": 112,
+      "term": "pharmacy",
+      "weight": 2.3475
+    },
+    {
+      "rank": 113,
+      "term": "0900",
+      "weight": 2.3474
+    },
+    {
+      "rank": 114,
+      "term": "intimate",
+      "weight": 2.3333
+    },
+    {
+      "rank": 115,
+      "term": "penis",
+      "weight": 2.3181
+    },
+    {
+      "rank": 116,
+      "term": "replica watches",
+      "weight": 2.3074
+    },
+    {
+      "rank": 117,
+      "term": "formula",
+      "weight": 2.2924
+    },
+    {
+      "rank": 118,
+      "term": "fund",
+      "weight": 2.2806
+    },
+    {
+      "rank": 119,
+      "term": "rx",
+      "weight": 2.2799
+    },
+    {
+      "rank": 120,
+      "term": "custom",
+      "weight": 2.2744
+    },
+    {
+      "rank": 121,
+      "term": "2020",
+      "weight": 2.2706
+    },
+    {
+      "rank": 122,
+      "term": "he",
+      "weight": 2.2627
+    },
+    {
+      "rank": 123,
+      "term": "vicodin",
+      "weight": 2.2487
+    },
+    {
+      "rank": 124,
+      "term": "aug",
+      "weight": 2.2473
+    },
+    {
+      "rank": 125,
+      "term": "now",
+      "weight": 2.2386
+    },
+    {
+      "rank": 126,
+      "term": "income",
+      "weight": 2.2293
+    },
+    {
+      "rank": 127,
+      "term": "girl",
+      "weight": 2.2289
+    },
+    {
+      "rank": 128,
+      "term": "statements",
+      "weight": 2.2288
+    },
+    {
+      "rank": 129,
+      "term": "lowest",
+      "weight": 2.2187
+    },
+    {
+      "rank": 130,
+      "term": "age",
+      "weight": 2.2184
+    },
+    {
+      "rank": 131,
+      "term": "act",
+      "weight": 2.2149
+    },
+    {
+      "rank": 132,
+      "term": "adobe",
+      "weight": 2.2061
+    },
+    {
+      "rank": 133,
+      "term": "usaa",
+      "weight": 2.205
+    },
+    {
+      "rank": 134,
+      "term": "growth",
+      "weight": 2.1754
+    },
+    {
+      "rank": 135,
+      "term": "em",
+      "weight": 2.1752
+    },
+    {
+      "rank": 136,
+      "term": "95",
+      "weight": 2.173
+    },
+    {
+      "rank": 137,
+      "term": "movies",
+      "weight": 2.1719
+    },
+    {
+      "rank": 138,
+      "term": "verify",
+      "weight": 2.163
+    },
+    {
+      "rank": 139,
+      "term": "oo",
+      "weight": 2.1614
+    },
+    {
+      "rank": 140,
+      "term": "2021",
+      "weight": 2.1609
+    },
+    {
+      "rank": 141,
+      "term": "drugs",
+      "weight": 2.1497
+    },
+    {
+      "rank": 142,
+      "term": "stock",
+      "weight": 2.1314
+    },
+    {
+      "rank": 143,
+      "term": "partner",
+      "weight": 2.1291
+    },
+    {
+      "rank": 144,
+      "term": "har",
+      "weight": 2.1279
+    },
+    {
+      "rank": 145,
+      "term": "ecard",
+      "weight": 2.1257
+    },
+    {
+      "rank": 146,
+      "term": "safe",
+      "weight": 2.1141
+    },
+    {
+      "rank": 147,
+      "term": "transaction",
+      "weight": 2.1108
+    },
+    {
+      "rank": 148,
+      "term": "0400",
+      "weight": 2.1084
+    },
+    {
+      "rank": 149,
+      "term": "within",
+      "weight": 2.1031
+    },
+    {
+      "rank": 150,
+      "term": "website",
+      "weight": 2.0869
+    }
+  ],
+  "top_legitimate_features": [
+    {
+      "rank": 1,
+      "term": "enron",
+      "weight": -13.3144
+    },
+    {
+      "rank": 2,
+      "term": "wrote",
+      "weight": -13.0552
+    },
+    {
+      "rank": 3,
+      "term": "thanks",
+      "weight": -10.1257
+    },
+    {
+      "rank": 4,
+      "term": "opensuse",
+      "weight": -7.6277
+    },
+    {
+      "rank": 5,
+      "term": "vince",
+      "weight": -7.4139
+    },
+    {
+      "rank": 6,
+      "term": "louise",
+      "weight": -6.8327
+    },
+    {
+      "rank": 7,
+      "term": "university",
+      "weight": -6.7173
+    },
+    {
+      "rank": 8,
+      "term": "2007",
+      "weight": -5.4606
+    },
+    {
+      "rank": 9,
+      "term": "713",
+      "weight": -5.3329
+    },
+    {
+      "rank": 10,
+      "term": "perl",
+      "weight": -5.2432
+    },
+    {
+      "rank": 11,
+      "term": "pm",
+      "weight": -5.1684
+    },
+    {
+      "rank": 12,
+      "term": "list",
+      "weight": -5.0972
+    },
+    {
+      "rank": 13,
+      "term": "language",
+      "weight": -5.0921
+    },
+    {
+      "rank": 14,
+      "term": "2001",
+      "weight": -4.9981
+    },
+    {
+      "rank": 15,
+      "term": "would",
+      "weight": -4.9233
+    },
+    {
+      "rank": 16,
+      "term": "python",
+      "weight": -4.9013
+    },
+    {
+      "rank": 17,
+      "term": "edu",
+      "weight": -4.8776
+    },
+    {
+      "rank": 18,
+      "term": "uai",
+      "weight": -4.8614
+    },
+    {
+      "rank": 19,
+      "term": "february",
+      "weight": -4.8581
+    },
+    {
+      "rank": 20,
+      "term": "2000",
+      "weight": -4.8526
+    },
+    {
+      "rank": 21,
+      "term": "tony",
+      "weight": -4.817
+    },
+    {
+      "rank": 22,
+      "term": "fork",
+      "weight": -4.6958
+    },
+    {
+      "rank": 23,
+      "term": "_______________________________________________",
+      "weight": -4.695
+    },
+    {
+      "rank": 24,
+      "term": "attached",
+      "weight": -4.5402
+    },
+    {
+      "rank": 25,
+      "term": "im",
+      "weight": -4.5137
+    },
+    {
+      "rank": 26,
+      "term": "version",
+      "weight": -4.4093
+    },
+    {
+      "rank": 27,
+      "term": "gas",
+      "weight": -4.399
+    },
+    {
+      "rank": 28,
+      "term": "date",
+      "weight": -4.2983
+    },
+    {
+      "rank": 29,
+      "term": "energy",
+      "weight": -4.2949
+    },
+    {
+      "rank": 30,
+      "term": "enron com",
+      "weight": -4.2752
+    },
+    {
+      "rank": 31,
+      "term": "doc",
+      "weight": -4.2706
+    },
+    {
+      "rank": 32,
+      "term": "the",
+      "weight": -4.2638
+    },
+    {
+      "rank": 33,
+      "term": "postfix",
+      "weight": -4.2223
+    },
+    {
+      "rank": 34,
+      "term": "ierant",
+      "weight": -4.2181
+    },
+    {
+      "rank": 35,
+      "term": "conference",
+      "weight": -4.1668
+    },
+    {
+      "rank": 36,
+      "term": "linguistics",
+      "weight": -4.1563
+    },
+    {
+      "rank": 37,
+      "term": "meeting",
+      "weight": -4.128
+    },
+    {
+      "rank": 38,
+      "term": "questions",
+      "weight": -4.1069
+    },
+    {
+      "rank": 39,
+      "term": "following",
+      "weight": -4.1001
+    },
+    {
+      "rank": 40,
+      "term": "anyone",
+      "weight": -4.0998
+    },
+    {
+      "rank": 41,
+      "term": "dave",
+      "weight": -4.0468
+    },
+    {
+      "rank": 42,
+      "term": "john",
+      "weight": -3.9742
+    },
+    {
+      "rank": 43,
+      "term": "bug",
+      "weight": -3.9671
+    },
+    {
+      "rank": 44,
+      "term": "daren",
+      "weight": -3.9422
+    },
+    {
+      "rank": 45,
+      "term": "code",
+      "weight": -3.922
+    },
+    {
+      "rank": 46,
+      "term": "slideshow",
+      "weight": -3.8696
+    },
+    {
+      "rank": 47,
+      "term": "use",
+      "weight": -3.826
+    },
+    {
+      "rank": 48,
+      "term": "on",
+      "weight": -3.8258
+    },
+    {
+      "rank": 49,
+      "term": "meter",
+      "weight": -3.8207
+    },
+    {
+      "rank": 50,
+      "term": "2008",
+      "weight": -3.7742
+    },
+    {
+      "rank": 51,
+      "term": "know",
+      "weight": -3.7581
+    },
+    {
+      "rank": 52,
+      "term": "march",
+      "weight": -3.7548
+    },
+    {
+      "rank": 53,
+      "term": "houston",
+      "weight": -3.7164
+    },
+    {
+      "rank": 54,
+      "term": "seems",
+      "weight": -3.6854
+    },
+    {
+      "rank": 55,
+      "term": "research",
+      "weight": -3.6773
+    },
+    {
+      "rank": 56,
+      "term": "ilug",
+      "weight": -3.6279
+    },
+    {
+      "rank": 57,
+      "term": "april",
+      "weight": -3.603
+    },
+    {
+      "rank": 58,
+      "term": "change",
+      "weight": -3.5888
+    },
+    {
+      "rank": 59,
+      "term": "rssfeedsspamassassintaintorg url",
+      "weight": -3.5751
+    },
+    {
+      "rank": 60,
+      "term": "rssfeedsspamassassintaintorg",
+      "weight": -3.5751
+    },
+    {
+      "rank": 61,
+      "term": "mark",
+      "weight": -3.5658
+    },
+    {
+      "rank": 62,
+      "term": "group",
+      "weight": -3.5358
+    },
+    {
+      "rank": 63,
+      "term": "1300",
+      "weight": -3.5248
+    },
+    {
+      "rank": 64,
+      "term": "please",
+      "weight": -3.4858
+    },
+    {
+      "rank": 65,
+      "term": "mailing list",
+      "weight": -3.4548
+    },
+    {
+      "rank": 66,
+      "term": "spamassassin",
+      "weight": -3.4314
+    },
+    {
+      "rank": 67,
+      "term": "tom",
+      "weight": -3.4313
+    },
+    {
+      "rank": 68,
+      "term": "hpl",
+      "weight": -3.4313
+    },
+    {
+      "rank": 69,
+      "term": "file",
+      "weight": -3.4312
+    },
+    {
+      "rank": 70,
+      "term": "issues",
+      "weight": -3.4253
+    },
+    {
+      "rank": 71,
+      "term": "question",
+      "weight": -3.4246
+    },
+    {
+      "rank": 72,
+      "term": "using",
+      "weight": -3.4131
+    },
+    {
+      "rank": 73,
+      "term": "jeff",
+      "weight": -3.403
+    },
+    {
+      "rank": 74,
+      "term": "bush",
+      "weight": -3.3794
+    },
+    {
+      "rank": 75,
+      "term": "deal",
+      "weight": -3.3757
+    },
+    {
+      "rank": 76,
+      "term": "call",
+      "weight": -3.3726
+    },
+    {
+      "rank": 77,
+      "term": "feb",
+      "weight": -3.3691
+    },
+    {
+      "rank": 78,
+      "term": "book",
+      "weight": -3.3436
+    },
+    {
+      "rank": 79,
+      "term": "url",
+      "weight": -3.3389
+    },
+    {
+      "rank": 80,
+      "term": "patch",
+      "weight": -3.3119
+    },
+    {
+      "rank": 81,
+      "term": "friday",
+      "weight": -3.3098
+    },
+    {
+      "rank": 82,
+      "term": "data",
+      "weight": -3.2907
+    },
+    {
+      "rank": 83,
+      "term": "unsubscribe",
+      "weight": -3.2466
+    },
+    {
+      "rank": 84,
+      "term": "log",
+      "weight": -3.1987
+    },
+    {
+      "rank": 85,
+      "term": "monday",
+      "weight": -3.1948
+    },
+    {
+      "rank": 86,
+      "term": "employees",
+      "weight": -3.1869
+    },
+    {
+      "rank": 87,
+      "term": "california",
+      "weight": -3.1745
+    },
+    {
+      "rank": 88,
+      "term": "steve",
+      "weight": -3.1666
+    },
+    {
+      "rank": 89,
+      "term": "2002",
+      "weight": -3.1618
+    },
+    {
+      "rank": 90,
+      "term": "cheers",
+      "weight": -3.1374
+    },
+    {
+      "rank": 91,
+      "term": "summary",
+      "weight": -3.1267
+    },
+    {
+      "rank": 92,
+      "term": "model",
+      "weight": -3.1002
+    },
+    {
+      "rank": 93,
+      "term": "think",
+      "weight": -3.0994
+    },
+    {
+      "rank": 94,
+      "term": "issue",
+      "weight": -3.0886
+    },
+    {
+      "rank": 95,
+      "term": "comments",
+      "weight": -3.0879
+    },
+    {
+      "rank": 96,
+      "term": "oct 2002",
+      "weight": -3.0793
+    },
+    {
+      "rank": 97,
+      "term": "kaminski",
+      "weight": -3.068
+    },
+    {
+      "rank": 98,
+      "term": "01",
+      "weight": -3.0616
+    },
+    {
+      "rank": 99,
+      "term": "xls",
+      "weight": -3.0583
+    },
+    {
+      "rank": 100,
+      "term": "mike",
+      "weight": -3.0549
+    },
+    {
+      "rank": 101,
+      "term": "option",
+      "weight": -3.0311
+    },
+    {
+      "rank": 102,
+      "term": "congratulations",
+      "weight": -3.0203
+    },
+    {
+      "rank": 103,
+      "term": "probably",
+      "weight": -3.0142
+    },
+    {
+      "rank": 104,
+      "term": "sally",
+      "weight": -3.0091
+    },
+    {
+      "rank": 105,
+      "term": "11",
+      "weight": -2.9983
+    },
+    {
+      "rank": 106,
+      "term": "problem",
+      "weight": -2.9823
+    },
+    {
+      "rank": 107,
+      "term": "set",
+      "weight": -2.9797
+    },
+    {
+      "rank": 108,
+      "term": "oct",
+      "weight": -2.9623
+    },
+    {
+      "rank": 109,
+      "term": "meyer",
+      "weight": -2.9531
+    },
+    {
+      "rank": 110,
+      "term": "schedule",
+      "weight": -2.9516
+    },
+    {
+      "rank": 111,
+      "term": "cant",
+      "weight": -2.9385
+    },
+    {
+      "rank": 112,
+      "term": "chris",
+      "weight": -2.9383
+    },
+    {
+      "rank": 113,
+      "term": "copyright 2008",
+      "weight": -2.9308
+    },
+    {
+      "rank": 114,
+      "term": "ena",
+      "weight": -2.9224
+    },
+    {
+      "rank": 115,
+      "term": "david",
+      "weight": -2.9188
+    },
+    {
+      "rank": 116,
+      "term": "project",
+      "weight": -2.9177
+    },
+    {
+      "rank": 117,
+      "term": "nz",
+      "weight": -2.9124
+    },
+    {
+      "rank": 118,
+      "term": "english",
+      "weight": -2.9027
+    },
+    {
+      "rank": 119,
+      "term": "policy",
+      "weight": -2.8921
+    },
+    {
+      "rank": 120,
+      "term": "ok",
+      "weight": -2.8916
+    },
+    {
+      "rank": 121,
+      "term": "bob",
+      "weight": -2.8742
+    },
+    {
+      "rank": 122,
+      "term": "tomorrow",
+      "weight": -2.8562
+    },
+    {
+      "rank": 123,
+      "term": "still",
+      "weight": -2.8481
+    },
+    {
+      "rank": 124,
+      "term": "tuesday",
+      "weight": -2.8413
+    },
+    {
+      "rank": 125,
+      "term": "at",
+      "weight": -2.8384
+    },
+    {
+      "rank": 126,
+      "term": "ie rant",
+      "weight": -2.8362
+    },
+    {
+      "rank": 127,
+      "term": "looks",
+      "weight": -2.8202
+    },
+    {
+      "rank": 128,
+      "term": "changed",
+      "weight": -2.8089
+    },
+    {
+      "rank": 129,
+      "term": "kevin",
+      "weight": -2.8085
+    },
+    {
+      "rank": 130,
+      "term": "wednesday",
+      "weight": -2.7967
+    },
+    {
+      "rank": 131,
+      "term": "httpxentcommailmanlistinfofork",
+      "weight": -2.7753
+    },
+    {
+      "rank": 132,
+      "term": "languages",
+      "weight": -2.755
+    },
+    {
+      "rank": 133,
+      "term": "regards",
+      "weight": -2.7332
+    },
+    {
+      "rank": 134,
+      "term": "rant",
+      "weight": -2.7283
+    },
+    {
+      "rank": 135,
+      "term": "cc",
+      "weight": -2.7158
+    },
+    {
+      "rank": 136,
+      "term": "1200",
+      "weight": -2.712
+    },
+    {
+      "rank": 137,
+      "term": "posted",
+      "weight": -2.7116
+    },
+    {
+      "rank": 138,
+      "term": "ive",
+      "weight": -2.7113
+    },
+    {
+      "rank": 139,
+      "term": "rather",
+      "weight": -2.7104
+    },
+    {
+      "rank": 140,
+      "term": "at http",
+      "weight": -2.7099
+    },
+    {
+      "rank": 141,
+      "term": "also",
+      "weight": -2.7043
+    },
+    {
+      "rank": 142,
+      "term": "address book",
+      "weight": -2.6876
+    },
+    {
+      "rank": 143,
+      "term": "to",
+      "weight": -2.6744
+    },
+    {
+      "rank": 144,
+      "term": "triptracker",
+      "weight": -2.6744
+    },
+    {
+      "rank": 145,
+      "term": "writes",
+      "weight": -2.6481
+    },
+    {
+      "rank": 146,
+      "term": "print",
+      "weight": -2.6462
+    },
+    {
+      "rank": 147,
+      "term": "ken",
+      "weight": -2.6411
+    },
+    {
+      "rank": 148,
+      "term": "pythondev",
+      "weight": -2.6396
+    },
+    {
+      "rank": 149,
+      "term": "jim",
+      "weight": -2.6349
+    },
+    {
+      "rank": 150,
+      "term": "latest",
+      "weight": -2.6184
+    }
+  ]
+}
